@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# 🚀 Animated Parallax Header for React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A smooth and responsive **Parallax Header** component built with [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/) and [glow-ui.xyz](https://glow-ui.xyz). Perfect for artist profile pages, streaming apps, or any UI that needs dynamic header transitions. Inspired by Spotify-style collapsible headers with image expansion and sticky states.
 
-## Get started
+https://user-images.githubusercontent.com/your-demo.gif
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- 🖼️ Expandable image header with smooth interpolation
+- 📱 Fully animated and responsive to scroll gestures
+- 🔒 Sticky state lock when expanded
+- 💫 Seamless transitions powered by Reanimated 3
+- 🧠 Smart retraction when scrolling up
+- 🎨 Easily composable with content or tabs below
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 🚀 Usage
 
 ```bash
-npm run reset-project
+git clone https://github.com/rit3zh/expo-animated-sticky-header
+cd expo-animated-sticky-header
+pnpm install
+pnpm ios
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📦 Dependencies
 
-## Learn more
+```bash
+pnpm install react-native-reanimated expo-blur expo-symbols expo-linear-gradient
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Also ensure:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Reanimated is properly configured (`babel.config.js`)
+- You're using `react-native-reanimated/plugin`
+- Your scroll container (e.g. `Animated.ScrollView` or `Animated.FlatList`) passes a `scrollY` shared value to the header
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 🧱 Tech
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- ⚛️ React Native
+- 🚀 Expo
+- 🎨 expo-symbols
